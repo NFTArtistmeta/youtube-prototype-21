@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Home, Film, Tv, Star, Clock } from 'lucide-react';
 
 const Sidebar = () => {
@@ -7,22 +8,22 @@ const Sidebar = () => {
       <nav>
         <ul className="space-y-4">
           <li>
-            <a href="#" className="flex items-center space-x-2 hover:text-gray-300">
+            <Link to="/" className="flex items-center space-x-2 hover:text-gray-300">
               <Home className="h-5 w-5" />
               <span>Home</span>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="flex items-center space-x-2 hover:text-gray-300">
+            <Link to="/movies" className="flex items-center space-x-2 hover:text-gray-300">
               <Film className="h-5 w-5" />
               <span>Movies</span>
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="flex items-center space-x-2 hover:text-gray-300">
+            <Link to="/tv-shows" className="flex items-center space-x-2 hover:text-gray-300">
               <Tv className="h-5 w-5" />
               <span>TV Shows</span>
-            </a>
+            </Link>
           </li>
           <li>
             <a href="#" className="flex items-center space-x-2 hover:text-gray-300">
