@@ -9,6 +9,7 @@ Create a stylish movie streaming site inspired by YouTube's layout, using Unspla
 3. Grid layout for movie thumbnails
 4. Sidebar with categories or genres
 5. Footer with basic information
+6. Clickable video thumbnails that open a modal with more details
 
 ## Design Requirements
 - Use a dark theme for a cinematic feel
@@ -19,6 +20,7 @@ Create a stylish movie streaming site inspired by YouTube's layout, using Unspla
 - Built with React and Tailwind CSS
 - Use Unsplash images for movie thumbnails and hero section
 - Implement basic routing for future page additions
+- Create a modal component for displaying movie details
 
 ## Future Considerations
 - Add search functionality
