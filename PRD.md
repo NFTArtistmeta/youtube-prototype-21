@@ -4,13 +4,12 @@
 Create a stylish movie streaming site inspired by YouTube's layout, using Unsplash images to represent video thumbnails.
 
 ## Key Features
-1. Header with logo and navigation
+1. Header with logo and navigation (excluding home button)
 2. Hero section showcasing a featured movie
 3. Grid layout for movie thumbnails
-4. Sidebar with categories or genres
-5. Footer with basic information
-6. Clickable video thumbnails that open a modal with more details
-7. Functional TV Shows page
+4. Footer with basic information
+5. Clickable video thumbnails that open a modal with more details
+6. Functional TV Shows page
 
 ## Design Requirements
 - Use a dark theme for a cinematic feel
